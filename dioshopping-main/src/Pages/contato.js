@@ -75,8 +75,7 @@ const Contatos = () => {
         })
         .then((response) => response.json())
         .then((data) => {
-            
-        console.log(data);
+        
             if(data.id) {
                 /* setRender(true); */
                 setRender(!render);
@@ -107,8 +106,7 @@ const Contatos = () => {
         })
         .then((response) => response.json())
         .then((data) => {
-            
-        console.log(data);
+        
             //if(data.id) {
                 setRender(!render);
                 setApaga(true);
